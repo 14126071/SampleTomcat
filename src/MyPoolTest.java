@@ -14,6 +14,7 @@ public class MyPoolTest {
             while (set.next()) {
                 System.out.println(set.getString("username") + "use connection :" + myPooledConnection.getConnection());
             }
+            myPooledConnection.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
