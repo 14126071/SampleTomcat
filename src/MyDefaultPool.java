@@ -64,20 +64,21 @@ public class MyDefaultPool implements IMyPool {
             try {
                 Connection connection = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
                 MyPooledConnection myPooledConnection = new MyPooledConnection(connection, false);
+                myPooledConnections.add(myPooledConnection);
             } catch (SQLException e) {
                 e.printStackTrace();
             }
         }
     }
 
-    private synchronized MyPooledConnection getRealConnectionFromPool() throws SQLException{
-        for(MyPooledConnection myPooledConnection : myPooledConnections){
-            if(!myPooledConnection.isBusy()){
-                if(myPooledConnection.getConnection().isValid(3000)){
+    private synchronized MyPooledConnection getRealConnectionFromPool() throws SQLException {
+        for (MyPooledConnection myPooledConnection : myPooledConnections) {
+            if (!myPooledConnection.isBusy()) {
+                if (myPooledConnection.getConnection().isValid(3000)) {
                     myPooledConnection.setBusy(true);
                     return myPooledConnection;
-                }else{
-                    Connection connection = DriverManager.getConnection(jdbcURL,jdbcUsername,jdbcPassword);
+                } else {
+                    Connection connection = DriverManager.getConnection(jdbcURL, jdbcUsername, jdbcPassword);
                     myPooledConnection.setConnection(connection);
                     myPooledConnection.setBusy(true);
                     return myPooledConnection;
