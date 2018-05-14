@@ -3,6 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SampleTomcat.iml" filepath="$PROJECT_DIR$/SampleTomcat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nettyclient/nettyclient.iml" filepath="$PROJECT_DIR$/nettyclient/nettyclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nettyserver/nettyserver.iml" filepath="$PROJECT_DIR$/nettyserver/nettyserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productapi/productapi.iml" filepath="$PROJECT_DIR$/productapi/productapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productservice/productservice.iml" filepath="$PROJECT_DIR$/productservice/productservice.iml" />
     </modules>
   </component>
 </project>
