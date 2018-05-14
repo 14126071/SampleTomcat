@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9ada1b-cf98-4ebe-ba63-d8e1125f95be" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SampleTomcat/MyRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SampleTomcat/MyResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SampleTomcat/MyServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SampleTomcat/MyTomcat.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SampleTomcat/ServletMapping.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SampleTomcat/ServletMappingConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/SampleTomcat/TestServlet.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/DbConfigXML.java" afterPath="$PROJECT_DIR$/src/JDBCPOOL/DbConfigXML.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/IMyPool.java" afterPath="$PROJECT_DIR$/src/JDBCPOOL/IMyPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MyDefaultPool.java" afterPath="$PROJECT_DIR$/src/JDBCPOOL/MyDefaultPool.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MyPoolFactory.java" afterPath="$PROJECT_DIR$/src/JDBCPOOL/MyPoolFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MyPoolTest.java" afterPath="$PROJECT_DIR$/src/JDBCPOOL/MyPoolTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/MyPooledConnection.java" afterPath="$PROJECT_DIR$/src/JDBCPOOL/MyPooledConnection.java" />
     </list>
     <ignored path="$PROJECT_DIR$/productapi/target/" />
     <ignored path="$PROJECT_DIR$/productservice/target/" />
@@ -1029,7 +1014,7 @@
       <workItem from="1524449208880" duration="545000" />
       <workItem from="1525658555893" duration="557000" />
       <workItem from="1525660493758" duration="1207000" />
-      <workItem from="1526263830796" duration="109000" />
+      <workItem from="1526263830796" duration="145000" />
     </task>
     <task id="LOCAL-00001" summary="jdbc">
       <created>1523514628875</created>
@@ -1045,11 +1030,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523515074068</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="netty test">
+      <created>1526263994042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526263994042</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38088000" />
+    <option name="totallyTimeSpent" value="38124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="860" extended-state="0" />
@@ -1087,7 +1079,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="jdbc" />
-    <option name="LAST_COMMIT_MESSAGE" value="jdbc" />
+    <MESSAGE value="netty test" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
